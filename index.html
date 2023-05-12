@@ -5,79 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastrar</title>
-    <!-- link com o CSS -->
+    <!-- Link com o CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
 
-        <!-- redes sociais -->
+        <!-- Redes sociais -->
         <h1>Criar conta</h1>
         <div class="social-media">
 
             <a href="https://www.google.com/" target="_blank">
                 <img src="assets/google.png" alt="Google">
             </a>
-            
+
             <a href="https://pt-br.facebook.com/" target="_blank">
-                <img src="assets/facebook.png" alt="Facebook">
+                <img src="assets/facebook.png" alt="facebook">
             </a>
 
             <a href="https://br.linkedin.com/" target="_blank">
-                <img src="assets/linkedin.png" alt="Linkedin">
+                <img src="assets/linkedin.png" alt="linkedin">
             </a>
-        
-         </div>
+            
+        </div>
 
-         <!-- _____________________________________ -->
-         <!-- linha com a divisão  -->
+        <!-- _____________________________________________________________________________________ -->
+        <!-- Linha com a divisão -->
 
-         <div class="alternative">
+        <div class="alternative">
             <span>OU</span>
-         </div>
+        </div>
 
-         <!-- _____________________________________ -->
-         <!-- inícia do formulário -->
+      <!-- _____________________________________________________________________________________ -->
+      <!-- Inicio do formulario -->
 
-         <form action="https://api.sheetmonkey.io/form/23Af9jj6v4MAU85GKVWhkC" method="post">
-            <label for="name">
-                <span>Nome</span>
-                <input type="text" id="name" name="name">
-            </label>
+      <form action="https://api.sheetmonkey.io/form/23Af9jj6v4MAU85GKVWhkC" method="post">
+        <label for="name">
+            <span>Nome</span>
+            <input type="text" id="name" name="name">
+        </label>
 
-            <label>
-                <span>Cep:</span>
-                <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
-                onblur="pesquisacep(this.value);" />
-            </label>
+        <label>
+            <span>Cep:</span>
+            <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+               onblur="pesquisacep(this.value);" />
+        </label>
+        
+        <label>
+            <span>Rua:</span>
+            <input name="rua" type="text" id="rua" size="60" />
+        </label>
 
-            <label>
-                <span>Rua:</span>
-                <input name="rua" type="text" id="rua" size="60" />
-            </label>
-            
-            <label>
-                <span>Bairro:</span>
-                <input name="bairro" type="text" id="Bairro" size="40" />
-            </label>
-            
-            <label>
-                <span>Cidade:</span>
-                <input name="ciadde" type="text" id="Cidade" size="40" />
-            </label>
-            
-            <label>
-                <span>Estado:</span>
-                <input name="estado" type="text" id="uf" size="2" />
-            </label>
+        <label>
+            <span>Bairro:</span>
+            <input name="bairro" type="text" id="bairro" size="40" />
+        </label>
 
-            <input type="submit" value="Enviar">
+        <label>
+            <span>Cidade:</span>
+            <input name="cidade" type="text" id="cidade" size="40" />
+        </label>
 
-         </form>
+        <label>
+            <span>Estado:</span>
+            <input name="uf" type="text" id="uf" size="2" />
+        </label>
+
+        <input type="submit" value="Enviar">
+
+        </form>
     </main>
 
-    <!-- ____________________________________________________________ -->
-    <!-- Imagem lateral  -->
+    <!-- _______________________________________________________________________________ -->
+    <!-- Imagem lateral -->
 
     <section class="images">
 
@@ -86,10 +86,10 @@
 
     </section>
 
-    <!-- ____________________________________________________________ -->
+    <!-- _______________________________________________________________________________ -->
     <!-- Adicionando Javascript (Para tratar CEP) -->
 
     <script src="cep.js"></script>
-    
+
 </body>
 </html>
