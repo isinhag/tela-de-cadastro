@@ -4,10 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastrar</title>
+    <!-- link com o CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <main>
+
+        <!-- redes sociais -->
+        <h1>Criar conta</h1>
+        <div class="social-media">
+
+            <a href="https://www.google.com/" target="_blank">
+                <img src="assets/google.png" alt="Google">
+            </a>
+            
+            <a href="https://pt-br.facebook.com/" target="_blank">
+                <img src="assets/facebook.png" alt="Facebook">
+            </a>
+
+            <a href="https://br.linkedin.com/" target="_blank">
+                <img src="assets/linkedin.png" alt="Linkedin">
+            </a>
+        
+         </div>
+
+         <!-- _____________________________________ -->
+         <!-- linha com a divisão  -->
+
+         <div class="alternative">
+            <span>OU</span>
+         </div>
+
+         <!-- _____________________________________ -->
+         <!-- inícia do formulário -->
+
+         <form action="https://api.sheetmonkey.io/form/23Af9jj6v4MAU85GKVWhkC" method="post">
+            <label for="name">
+                <span>Nome</span>
+                <input type="text" id="name" name="name">
+            </label>
+
+            <label>
+                <span>Cep:</span>
+                <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+                onblur="pesquisacep (this.value);"/>
+            </label>
+
+            <label>
+                <span>Rua:</span>
+                <input name="rua" type="text" id="rua" size="60" />
+            </label>
+            
+            <label>
+                <span>Bairro</span>
+                <input name="bairro" type="text" id="Bairro" size="40"/>
+            </label>
+            
+            <label>
+                <span>Cidade</span>
+                <input name="name" type="text" id="Cidade" size="40">
+            </label>
+            
+         </form>
+    </main>
 </body>
 </html>
