@@ -48,7 +48,7 @@
             <label>
                 <span>Cep:</span>
                 <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
-                onblur="pesquisacep (this.value);"/>
+                onblur="pesquisacep(this.value);" />
             </label>
 
             <label>
@@ -57,16 +57,39 @@
             </label>
             
             <label>
-                <span>Bairro</span>
-                <input name="bairro" type="text" id="Bairro" size="40"/>
+                <span>Bairro:</span>
+                <input name="bairro" type="text" id="Bairro" size="40" />
             </label>
             
             <label>
-                <span>Cidade</span>
-                <input name="name" type="text" id="Cidade" size="40">
+                <span>Cidade:</span>
+                <input name="ciadde" type="text" id="Cidade" size="40" />
             </label>
             
+            <label>
+                <span>Estado:</span>
+                <input name="estado" type="text" id="uf" size="2" />
+            </label>
+
+            <input type="submit" value="Enviar">
+
          </form>
     </main>
+
+    <!-- ____________________________________________________________ -->
+    <!-- Imagem lateral  -->
+
+    <section class="images">
+
+        <img src="assets/mobile.svg" alt="mobile">
+        <div class="circle"></div>
+
+    </section>
+
+    <!-- ____________________________________________________________ -->
+    <!-- Adicionando Javascript (Para tratar CEP) -->
+
+    <script src="cep.js"></script>
+    
 </body>
 </html>
